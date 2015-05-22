@@ -23,6 +23,7 @@ No code is written in the chapter, as it covers configuring your dev environment
 
 #### Page 56
 - `wrapIntoDataProvider()` should be added to the `CustomersController` class, as it is called by its `findRecordsByQuery()` method.
+- see also: http://blogyii.com/blog/unknown-method-and-wrong-redirect
 
 #### Page 58
 - `actionQuery()` should be added to `CustomersController`
