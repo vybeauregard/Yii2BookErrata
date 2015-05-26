@@ -54,8 +54,12 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 - The "custom handcrafted form" is the full content of `views/customers/query.php`
 
 #### Page 59
-- If `date.timezone` has not been set in `/var/php.ini`, add it. `date.timezone = "America/New_York"`
+- If `date.timezone` has not been set in `/var/php.ini`, add it:
 
->The search results are not yet appearing. This will probably satisfy the Codeceptions tests.
+```
+date.timezone = "America/New_York"
+```
+
+>The search results are not yet appearing. Resolving this will probably satisfy the Codeception tests.
 >
 >Suggestions are welcome.
