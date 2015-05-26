@@ -46,6 +46,4 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 
 >I haven't been able to get codeception to successfully run the tests created for this project. It is failing to find  the `PhoneRecord[number]` field when entering customer info into the form.
 >
->Also, when manually testing the form, the date entered returns invalid regardless of formatting.
->
 >Suggestions are welcome.
