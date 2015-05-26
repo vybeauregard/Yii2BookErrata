@@ -15,6 +15,9 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 40
 - `getRecordsAccordingToQuery()` is referred to as `findRecordsByQuery()` throughout the rest of this exercise. Change it here to avoid errors.
 
+#### Page 43
+- Make sure you save `db.php` under `config/`.
+
 #### Page 53
 - The form in the book is definitely not what comes up here. Refer to http://blogyii.com/blog/class-customerrecord-not-found to resolve the multitude of errors produced.
 - Also, bower has moved the jQuery path! *From the command line:* `crmapp/vendor $ ln -s bower-asset/ bower`
