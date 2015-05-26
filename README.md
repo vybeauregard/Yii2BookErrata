@@ -21,6 +21,8 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 46
 - Yii expects the date format as `yyyy-M-d`. http://stackoverflow.com/a/26098149
 
+>http://userguide.icu-project.org/formatparse/datetime#TOC-Date-Time-Format-Syntax
+
 #### Page 52
 - Don't mess with RewriteRules right now. Just make sure any urls past this point include `http://localhost:8000/index.php/` any place the book references `http://yourdomain/`.
 
