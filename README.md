@@ -12,8 +12,20 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 30
 - The author jumped over to the command line to install Faker. Continue entering these methods into `tests/acceptance/_steps/CRMOperatorSteps.php`
 
+#### Page 32
+- The `CRMUsersSteps.php` test
+
 #### Page 40
 - `getRecordsAccordingToQuery()` is referred to as `findRecordsByQuery()` throughout the rest of this exercise. Change it here to avoid errors.
+
+#### Page 41
+- Add the following construct method to `Phone.php`:
+```
+    public function __construct($number)
+    {
+        $this->number = $number;
+    }
+```
 
 #### Page 43
 - Make sure you save `db.php` under `config/`.
@@ -44,6 +56,6 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 59
 - If `date.timezone` has not been set in `/var/php.ini`, add it. `date.timezone = "America/New_York"`
 
->I haven't been able to get codeception to successfully run the tests created for this project. It is failing to find  the `PhoneRecord[number]` field when entering customer info into the form.
+>The search results are not yet appearing. This will probably satisfy the Codeceptions tests.
 >
 >Suggestions are welcome.
