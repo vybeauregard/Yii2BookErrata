@@ -39,6 +39,8 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 59
 - If `date.timezone` has not been set in `/var/php.ini`, add it. `date.timezone = "America/New_York"`
 
->I haven't been able to get codeception to successfully run the tests created for this project. It is failing with `Fatal error: Class 'AcceptenceTester\CRMUserSteps' not found in crmapp/tests/acceptance/QueryCustomerByPhoneNumberCept.php on line 19`
+>I haven't been able to get codeception to successfully run the tests created for this project. It is failing to find  the `PhoneRecord[number]` field when entering customer info into the form.
+>
+>Also, when manually testing the form, the date entered returns invalid regardless of formatting.
 >
 >Suggestions are welcome.
