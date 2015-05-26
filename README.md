@@ -10,7 +10,7 @@ No code is written in the chapter, as it covers configuring your dev environment
 This chapter is critical, as it is the basis for the rest of the exercises in the book. 
 
 #### Page 30
-- Continue entering these methods into `tests/acceptance/_steps/CMUserSteps.php`
+- Continue entering these methods into `tests/acceptance/_steps/CRMOperatorSteps.php`
 
 #### Page 40
 - `getRecordsAccordingToQuery()` is referred to as `findRecordsByQuery()` throughout the rest of this exercise. Change it here to avoid errors.
