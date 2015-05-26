@@ -18,6 +18,9 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 #### Page 43
 - Make sure you save `db.php` under `config/`.
 
+#### Page 52
+- Don't mess with RewriteRules right now. Just make sure any urls past this point include `http://localhost:8000/index.php/` any place the book references `http://yourdomain/`.
+
 #### Page 53
 - The form in the book is definitely not what comes up here. Refer to http://blogyii.com/blog/class-customerrecord-not-found to resolve the multitude of errors produced.
 - Also, bower has moved the jQuery path! *From the command line:* `crmapp/vendor $ ln -s bower-asset/ bower`
