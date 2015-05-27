@@ -87,3 +87,17 @@ We are continuing to build upon the CRM app we started on in Chapter 2. Most of 
   - `1885OS_Code/crmapp/tests/acceptance/EditServiceCept.php`
   - `1885OS_Code/crmapp/tests/acceptance/DeleteServiceCept.php`
 
+> The test imported from the code bundle has made a ton of assumptions about or project, many of which are incorrect. To compensate for this, the files I have copied from a `basic` Yii install so far include:
+- `models/User.php`
+- `models/ContactForm.php`
+- `models/EntryForm.php`
+- `models/LoginForm.php`
+- `views/site/*.php`
+- I have updated `controllers/SiteController.php` with the contents of the `basic` `SiteController`, but left `actionIndex()` unmodified.
+- `config/web.php` should be updated with a `user` component:
+```
+'user' => [
+            'identityClass' => 'app\models\User',
+            'enableAutoLogin' => true,
+        ],
+```
