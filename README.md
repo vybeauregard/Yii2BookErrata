@@ -71,6 +71,5 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 date.timezone = "America/New_York"
 ```
 
->The search results are not yet appearing. Resolving this will probably satisfy the Codeception tests.
->
->Suggestions are welcome.
+## Chapter 3
+
