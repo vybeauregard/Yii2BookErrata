@@ -87,7 +87,7 @@ We are continuing to build upon the CRM app we started on in Chapter 2. Most of 
   - `1885OS_Code/crmapp/tests/acceptance/EditServiceCept.php`
   - `1885OS_Code/crmapp/tests/acceptance/DeleteServiceCept.php`
 
-> The test imported from the code bundle has made a ton of assumptions about or project, many of which are incorrect. To compensate for this, the files I have copied from a `basic` Yii install so far include:
+> The test imported from the code bundle has made a ton of assumptions about or project, many of which are incorrect. To compensate for this, the files I have copied from a `basic` Yii install include:
 - `models/User.php`
 - `models/ContactForm.php`
 - `models/EntryForm.php`
@@ -101,3 +101,4 @@ We are continuing to build upon the CRM app we started on in Chapter 2. Most of 
             'enableAutoLogin' => true,
         ],
 ```
+- The test has switched from using PHPBrowser to WebDriver. To make that work, add PhantomJS to `composer.json` as detailed here: https://samsonasik.wordpress.com/2014/12/18/using-php-phantomjs-with-codeception/
