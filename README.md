@@ -13,7 +13,18 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 - The author jumped over to the command line to install Faker. Continue entering these methods into `tests/acceptance/_steps/CRMOperatorSteps.php`
 
 #### Page 32
-- The `CRMUsersSteps.php` test
+- `CRMUsersSteps.php`: `fillInPhoneFieldWithDataFrom()` must fill the field identified as `phone_number`, not `PhoneRecord[number]` in order for the test to yield success.
+
+```
+    function fillInPhoneFieldWithDataFrom($customer_data)
+    {
+        $I = $this;
+        $I->fillField(
+            'phone_number',
+            $customer_data['PhoneRecord[number]']
+        );
+    }
+```
 
 #### Page 40
 - `getRecordsAccordingToQuery()` is referred to as `findRecordsByQuery()` throughout the rest of this exercise. Change it here to avoid errors.
@@ -36,7 +47,7 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 >http://userguide.icu-project.org/formatparse/datetime#TOC-Date-Time-Format-Syntax
 
 #### Page 52
-- Don't mess with RewriteRules right now. Just make sure any urls past this point include `http://localhost:8000/index.php/` any place the book references `http://yourdomain/`.
+- Don't mess with RewriteRules right now. If you're using the server built into your local php installation, your URLs should resolve properly without them.
 
 #### Page 53
 - The form in the book is definitely not what comes up here. Refer to http://blogyii.com/blog/class-customerrecord-not-found to resolve the multitude of errors produced.
