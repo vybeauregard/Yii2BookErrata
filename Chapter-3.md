@@ -28,7 +28,7 @@ At this point, it is very tempting to bypass all of the tests. If you can fill t
 - ~~`views/site/*.php`~~
 - ~~I have updated `controllers/SiteController.php` with the contents of the `basic` `SiteController`, but left `actionIndex()` unmodified.~~
 - ~~`config/web.php` should be updated with a `user` component:~~
-```
+```php
 'user' => [
             'identityClass' => 'app\models\User',
             'enableAutoLogin' => true,
