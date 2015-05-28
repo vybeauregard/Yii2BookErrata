@@ -7,7 +7,7 @@
 #### Page 32
 - `CRMUsersSteps.php`: `fillInPhoneFieldWithDataFrom()` must fill the field identified as `phone_number`, not `PhoneRecord[number]` in order for the test to yield success.
 
-```
+```php
     function fillInPhoneFieldWithDataFrom($customer_data)
     {
         $I = $this;
@@ -23,7 +23,7 @@
 
 #### Page 41
 - Add the following construct method to `Phone.php`:
-```
+```php
     public function __construct($number)
     {
         $this->number = $number;
@@ -59,7 +59,7 @@
 #### Page 59
 - If `date.timezone` has not been set in `/var/php.ini`, add it:
 
-```
+```php
 date.timezone = "America/New_York"
 ```
 [return to README](README.md)
