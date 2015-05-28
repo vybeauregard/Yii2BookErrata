@@ -13,4 +13,11 @@ Holy smokes! It passed the test!
 - `actionYaml()` will be added to `ServicesController.php`
 - `use app\utilities\YamlResponseFormatter;` needs to be added to the use statements at the beginning of `ServicesController.php` in order for the YAML Formatter to be properly invoked.
 
+####Page 107
+- The overview for publishing asset bundles did not include steps for adapting the existing project for them. Replacing the two asset registration calls with `app\assets\ApplicationUiAssetBundle::register($this);` produces the following error:
+
+  >The file or directory to be published does not exist: ~/Projects/crmapp/assets/ui
+
+- Publising asset bundles outside of the `@webroot` folder is against official Yii recommendations: http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations
+
 [return to README](README.md)
