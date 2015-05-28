@@ -1,7 +1,5 @@
 ## Chapter 2
 
-This chapter is critical, as it is the basis for the rest of the exercises in the book. 
-
 #### Page 30
 - The author jumped over to the command line to install Faker. Continue entering these methods into `tests/acceptance/_steps/CRMOperatorSteps.php`
 
