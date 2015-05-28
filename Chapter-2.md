@@ -7,16 +7,16 @@
 #### Page 32
 - `CRMUsersSteps.php`: `fillInPhoneFieldWithDataFrom()` must fill the field identified as `phone_number`, not `PhoneRecord[number]` in order for the test to yield success.
 
-```php
-    function fillInPhoneFieldWithDataFrom($customer_data)
-    {
-        $I = $this;
-        $I->fillField(
-            'phone_number',
-            $customer_data['PhoneRecord[number]']
-        );
-    }
-```
+    ```php
+        function fillInPhoneFieldWithDataFrom($customer_data)
+        {
+            $I = $this;
+            $I->fillField(
+                'phone_number',
+                $customer_data['PhoneRecord[number]']
+            );
+        }
+    ```
 
 #### Page 40
 - `getRecordsAccordingToQuery()` is referred to as `findRecordsByQuery()` throughout the rest of this exercise. Change it here to avoid errors.
@@ -59,7 +59,7 @@
 #### Page 59
 - If `date.timezone` has not been set in `/var/php.ini`, add it:
 
-```php
-date.timezone = "America/New_York"
-```
+    ```php
+    date.timezone = "America/New_York"
+    ```
 [return to README](README.md)
