@@ -10,6 +10,8 @@ At this point, it is very tempting to bypass all of the tests. If you can fill t
 
 The code bundle includes a Vagrant file for spinning up a virtual machine with _allegedly_ everything necessary to run the server and execute the included tests. While I was able to bring the server up and verify for myself that everything is configured properly, the test suite (which includes several technologies I am new to) would not execute. Because these technologies are not central to how Yii functions, skipping the included tests seems like the best way to progress.
 
+[jump to Page 76](Chapter-3.md#page-76)
+
 #### Page 74
 
 - ~~Before running the next Codeception test, download the code bundle from https://www.packtpub.com/books/content/support~~
