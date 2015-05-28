@@ -36,4 +36,7 @@ At this point, it is very tempting to bypass all of the tests. If you can fill t
 ```
 - ~~The test has switched from using PHPBrowser to WebDriver. To make that work, add PhantomJS to `composer.json` as detailed here: https://samsonasik.wordpress.com/2014/12/18/using-php-phantomjs-with-codeception/~~
 
+#### Page 76
+As you're entering data, note that the field order in your app is reversed from the order in the book. Form validation will still warn you if you attempt to submit the form with invalid data.
+
 [return to README](README.md)
