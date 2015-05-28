@@ -20,4 +20,7 @@ Holy smokes! It passed the test!
 
 - Publising asset bundles outside of the `@webroot` folder is against official Yii recommendations: http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations
 
+####Page 110
+-There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
+
 [return to README](README.md)
