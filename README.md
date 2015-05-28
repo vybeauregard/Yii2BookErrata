@@ -13,3 +13,5 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 We are continuing to build upon the CRM app we started on in Chapter 2. Most of the issues resolved in that stage of development should carry through to this chapter.
 
 ## [Chapter 4](Chapter-4.md)
+
+This chapter takes a look at Yii under the hood and the path followed to take page content and render it for the client. Most of what is present here is theoretical in nature, but it is helpful to get `Yii::app` to spit out some of its properties to see how its various settings are applied.
