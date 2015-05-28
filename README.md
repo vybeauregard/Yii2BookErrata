@@ -11,3 +11,5 @@ This chapter is critical, as it is the basis for the rest of the exercises in th
 ## [Chapter 3](Chapter-3.md)
 
 We are continuing to build upon the CRM app we started on in Chapter 2. Most of the issues resolved in that stage of development should carry through to this chapter.
+
+## [Chapter 4](Chapter-4.md)
