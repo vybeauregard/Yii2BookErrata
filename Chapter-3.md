@@ -16,8 +16,8 @@ The code bundle includes a Vagrant file for spinning up a virtual machine with _
 
 - ~~Before running the next Codeception test, download the code bundle from https://www.packtpub.com/books/content/support~~
 
-> ~~Type `yii2` into the `Search...` field in the middle of the page and select `Web Application Development with Yii 2 and PHP`.
-> On the next screen, fill out the form and you will receive a download link in your email.~~
+  > ~~Type `yii2` into the `Search...` field in the middle of the page and select `Web Application Development with Yii 2 and PHP`.
+  > On the next screen, fill out the form and you will receive a download link in your email.~~
 
 - ~~Open the zip file and copy the following files into their respective folders in your `crmapp`:~~
   - ~~`1885OS_Code/crmapp/tests/acceptance/_steps/CRMGuestSteps.php`~~
