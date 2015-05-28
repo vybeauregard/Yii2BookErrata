@@ -1,11 +1,14 @@
 [return to README](README.md)
 
+From the author:
 ```
 Inside the code bundle that comes with this book, you will find the
 acceptance test definitions for the CRUD UI we have been building
 in this chapter. This was not included in the text for brevity. 
 ```
 At this point, it is very tempting to bypass all of the tests. If you can fill the forms out manually to verify everything is working as you'd expect, I would call it good.
+
+The code bundle includes a Vagrant file for spinning up a virtual machine with _allegedly_ everything necessary to run the server and execute the included tests. While I was able to bring the server up and verify for myself that everything is configured properly, the test suite (which includes several technologies I am new to) would not execute. Because these technologies are not central to how Yii functions, skipping the included tests seems like the best way to progress.
 
 #### Page 74
 
@@ -37,6 +40,6 @@ At this point, it is very tempting to bypass all of the tests. If you can fill t
 - ~~The test has switched from using PHPBrowser to WebDriver. To make that work, add PhantomJS to `composer.json` as detailed here: https://samsonasik.wordpress.com/2014/12/18/using-php-phantomjs-with-codeception/~~
 
 #### Page 76
-As you're entering data, note that the field order in your app is reversed from the order in the book. Form validation will still warn you if you attempt to submit the form with invalid data.
+As you're entering data manually, note that the field order in your app is reversed from the order in the book. Form validation will still warn you if you attempt to submit the form with invalid data.
 
 [return to README](README.md)
