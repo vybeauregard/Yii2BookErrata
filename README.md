@@ -15,3 +15,5 @@ We are continuing to build upon the CRM app we started on in Chapter 2. Most of 
 ## [Chapter 4](Chapter-4.md)
 
 This chapter takes a look at Yii under the hood and the path that is followed to take page content and render it for the client. Most of what is present here is theoretical in nature, but it is helpful to get `Yii::app` to spit out some of its properties to see how its various settings are applied.
+
+Later, we'll be adding a theme. That's when the fun starts!
