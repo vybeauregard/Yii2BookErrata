@@ -10,6 +10,7 @@ Spelling `$this->assertGreaterThen();` should be corrected to `$this->assertGrea
 Holy smokes! It passed the test!
 
 ####Page 99
-`actionYaml()` will be added to `ServicesController.php`
+- `actionYaml()` will be added to `ServicesController.php`
+- `use app\utilities\YamlResponseFormatter;` needs to be added to the use statements at the beginning of `ServicesController.php` in order for the YAML Formatter to be properly invoked.
 
 [return to README](README.md)
