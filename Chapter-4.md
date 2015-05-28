@@ -21,6 +21,7 @@ Holy smokes! It passed the test!
 - Publising asset bundles outside of the `@webroot` folder is against official Yii recommendations: http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations
 
 ####Page 110
--There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
+- There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
+- Whatever is preventing the page from loading at this point is the `Asset Manager`. http://www.yiiframework.com/doc-2.0/yii-web-assetmanager.html Further investigation is warranted.
 
 [return to README](README.md)
