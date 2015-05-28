@@ -1,3 +1,4 @@
+[return to README](README.md)
 #### Page 74
 - Before running the next Codeception test, download the code bundle from https://www.packtpub.com/books/content/support
 
@@ -25,3 +26,5 @@
         ],
 ```
 - The test has switched from using PHPBrowser to WebDriver. To make that work, add PhantomJS to `composer.json` as detailed here: https://samsonasik.wordpress.com/2014/12/18/using-php-phantomjs-with-codeception/
+
+[return to README](README.md)
