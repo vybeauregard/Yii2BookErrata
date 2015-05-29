@@ -19,3 +19,5 @@ This chapter takes a look at Yii under the hood and the path that is followed to
 Later, we'll be adding a theme. That's when the fun starts!
 
 ## [Chapter 5](Chapter-5.md)
+
+This chapter delves into practical examples, starting with User Authentication
