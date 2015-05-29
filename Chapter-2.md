@@ -34,9 +34,7 @@
 - Make sure you save `db.php` under `config/`.
 
 #### Page 46
-- Yii expects the date format as `yyyy-M-d`. http://stackoverflow.com/a/26098149
-
->http://userguide.icu-project.org/formatparse/datetime#TOC-Date-Time-Format-Syntax
+- Yii expects the [date format](http://userguide.icu-project.org/formatparse/datetime#TOC-Date-Time-Format-Syntax) as `yyyy-M-d`. http://stackoverflow.com/a/26098149
 
 #### Page 52
 - Don't mess with RewriteRules right now. If you're using the server built into your local php installation, your URLs should resolve properly without them.
