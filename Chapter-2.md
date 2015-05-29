@@ -40,8 +40,8 @@
 - Don't mess with RewriteRules right now. If you're using the server built into your local php installation, your URLs should resolve properly without them.
 
 #### Page 53
-- The form in the book is definitely not what comes up here. Refer to http://blogyii.com/blog/class-customerrecord-not-found to resolve the multitude of errors produced.
-- Also, bower has moved the jQuery path! Follow the instructions at http://blogyii.com/blog/installing-yii2-with-composer to correct that and add all other packages this project will need.
+- The form in the book is definitely not what comes up here. Refer to [BlogYii](http://blogyii.com/blog/class-customerrecord-not-found) to resolve the multitude of errors produced.
+- Also, bower has moved the jQuery path! Follow the instructions at [BlogYii](http://blogyii.com/blog/installing-yii2-with-composer) to correct that and add all other packages this project will need.
 
 #### Page 54
 - "shorthand" means include the code snippet as a method of the `CustomersController` class.
