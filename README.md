@@ -3,7 +3,7 @@ An attempt to log and provide workarounds for omissions, assumptions, and other 
 
 ## Chapter 1
 
-No code is written in the chapter, as it covers configuring your dev environment.
+No code is written in the chapter, as it covers configuring your dev environment. If you prefer, you can [download the code bundle](Chapter-3.md#page-74) included with the book and deploy the vagrant virtual machine, which has everything pre-configured.
 
 ## [Chapter 2](Chapter-2.md)
 This chapter is critical, as it is the basis for the rest of the exercises in the book. 
