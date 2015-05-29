@@ -22,6 +22,17 @@ Holy smokes! It passed the test!
 
 ####Page 110
 - There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
-- Whatever is preventing the page from loading at this point is the `Asset Manager`. http://www.yiiframework.com/doc-2.0/yii-web-assetmanager.html Further investigation is warranted.
+- In `assets/SnowAssetsBundle.php`, set the `$depends` property to an [empty array](http://stackoverflow.com/a/27154646):
+
+    ```php
+      class SnowAssetsBundle extends AssetBundle
+      {
+        public $sourcePath = '@app/assets/snow';
+        public $css = ['snow.css'];
+        public $depends = [
+            //'apps\assets\ApplicationUiAssetBundle',
+        ];
+      }
+    ```
 
 [return to README](README.md)
