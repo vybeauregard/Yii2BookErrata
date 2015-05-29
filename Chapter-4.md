@@ -18,7 +18,7 @@ Holy smokes! It passed the test!
 
   >The file or directory to be published does not exist: ~/Projects/crmapp/assets/ui
 
-- Publising asset bundles outside of the `@webroot` folder is against official Yii recommendations: http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations
+- Publising asset bundles outside of the `@webroot` folder is against [official Yii recommendations] (http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations)
 
 ####Page 109
 - In `assets/SnowAssetsBundle.php`, set the `$depends` property to an [empty array](http://stackoverflow.com/a/27154646):
