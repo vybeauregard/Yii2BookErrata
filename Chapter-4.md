@@ -20,19 +20,21 @@ Holy smokes! It passed the test!
 
 - Publising asset bundles outside of the `@webroot` folder is against official Yii recommendations: http://www.yiiframework.com/doc-2.0/guide-structure-assets.html#asset-locations
 
-####Page 110
-- There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
+####Page 109
 - In `assets/SnowAssetsBundle.php`, set the `$depends` property to an [empty array](http://stackoverflow.com/a/27154646):
 
-    ```php
-      class SnowAssetsBundle extends AssetBundle
-      {
-        public $sourcePath = '@app/assets/snow';
-        public $css = ['snow.css'];
-        public $depends = [
-            //'apps\assets\ApplicationUiAssetBundle',
-        ];
-      }
-    ```
+  ```php
+    class SnowAssetsBundle extends AssetBundle
+    {
+      public $sourcePath = '@app/assets/snow';
+      public $css = ['snow.css'];
+      public $depends = [
+          //'apps\assets\ApplicationUiAssetBundle',
+      ];
+    }
+  ```
+
+####Page 110
+- There are two `homepage.php` files. Make sure you update `themes/snowy/views/site/homepage.php` with the code at the top of this page.
 
 [return to README](README.md)
