@@ -21,3 +21,5 @@ Later, we'll be adding a theme. That's when the fun starts!
 ## [Chapter 5](Chapter-5.md)
 
 This chapter delves into practical examples, starting with User Authentication
+
+>This may be abandoned for a bit. 
